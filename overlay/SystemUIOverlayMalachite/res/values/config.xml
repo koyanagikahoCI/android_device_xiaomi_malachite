@@ -48,4 +48,10 @@
     <!-- Should we vibrate on an icon animation of the shelf. This should only be active if the
      vibrator is capable of subtle vibrations -->
     <bool name="config_vibrateOnIconAnimation">true</bool>
+
+    <!-- SystemUI cannot read the device's sysfs thermal nodes. -->
+    <string name="config_cpuTempSensor" translatable="false"></string>
+
+    <!-- The panel provides fingerprint illumination through local HBM. -->
+    <color name="config_udfpsColor">#00000000</color>
 </resources>
