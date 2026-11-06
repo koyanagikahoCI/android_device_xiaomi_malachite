@@ -13,7 +13,7 @@ $(call inherit-product, device/xiaomi/malachite/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_malachite
+PRODUCT_NAME := pixel_malachite
 PRODUCT_DEVICE := malachite
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
