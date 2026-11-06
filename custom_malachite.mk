@@ -10,7 +10,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile.
 $(call inherit-product, device/xiaomi/malachite/device.mk)
 
-# Inherit some common LineageOS stuff.
+# Inherit some common custom stuff.
 $(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
 PRODUCT_NAME := custom_malachite
