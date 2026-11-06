@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/custom_malachite.mk
+    $(LOCAL_DIR)/clover_malachite.mk
